@@ -13,7 +13,10 @@ int main(void)
 	{
 		putchar(i);
 
-		putchar(44);
+		if (i < 57)
+		{
+			putchar(44);
+		}
 
 		putchar(32);
 	}
